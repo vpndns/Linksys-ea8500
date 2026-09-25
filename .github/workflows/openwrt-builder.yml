@@ -12,11 +12,9 @@
 
 name: OpenWrt Builder
 
-#on:
+on:
   #repository_dispatch:
   #workflow_dispatch:
-
-  on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
